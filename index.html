@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jogo de Dados</title>
+  </head>
+  <body>
+    <main>
+      <section class="jogador jogador--0 jogador--ativo">
+        <h2 class="nome" id="nome--0">Jogador1</h2>
+        <p class="pontos" id="pontos--0">43</p>
+        <div class="atual">
+          <p class="atual-label">atual</p>
+          <p class="atual-pontos" id="atual--0">0</p>
+        </div>
+      </section>
+      <section class="jogador jogador--1">
+        <h2 class="nome" id="nome--1">Jogador2</h2>
+        <p class="pontos" id="pontos--1">24</p>
+        <div class="atual">
+          <p class="atual-label">atual</p>
+          <p class="atual-pontos" id="atual--1">0</p>
+        </div>
+      </section>
+
+      <img src="img/dado-5.png" alt="Jogando dado" class="dado" />
+      <img src="img/avatar1.jpg" alt="JOGADOR1" class="avatar1" />
+      <img src="img/avatar2.jpg" alt="JOGADOR2" class="avatar2" />
+      <button class="btn btn--novo">🔄 Novo jogo</button>
+      <button class="btn btn--rolar">🎲 Rolar dado</button>
+      <button class="btn btn--passar">📥 Passar</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
